@@ -103,7 +103,7 @@ li {
 
     @include sp {
         height: auto;
-        padding: vw(50) 0;
+        padding: vw(50) 0 vw(49.5);
     }
 
     &-container {
@@ -203,7 +203,7 @@ li {
     font-size: mvw(45);
     font-weight: 700;
     line-height: calc(32 / 45);
-    letter-spacing: 0.06em;
+    letter-spacing: 0.05em;
     display: block;
     text-align: center;
     margin-bottom: mvw(18);
@@ -212,7 +212,8 @@ li {
     @include sp {
         font-size: vw(30);
         line-height: calc(32 / 30);
-        margin-bottom: vw(4);
+        margin-bottom: 4px;
+        margin-left: vw(3);
     }
 }
 
@@ -328,9 +329,9 @@ li {
     .wrapper {
         display: flex;
         height: 100%;
-        padding-top: mvw(122);
-        justify-content: flex-end;
         padding-right: mvw(92);
+        justify-content: flex-end;
+        align-items: center;
 
         @include sp {
             display: block;
@@ -349,11 +350,9 @@ li {
                 font-family: 'EB Garamond', serif;
                 font-size: mvw(38);
                 font-weight: 700;
-                line-height: 1.58;
-                letter-spacing: 0.044em;
+                line-height: 1.6;
 
                 @include sp {
-                    margin-left: vw(3);
                     font-size: vw(30);
                 }
             }
@@ -389,7 +388,7 @@ li {
     position: relative;
 
     @include sp {
-        padding: vw(53) 0 vw(75);
+        padding: vw(54) 0 vw(75);
     }
 }
 
@@ -565,7 +564,7 @@ li {
             cursor: pointer;
 
             @include sp {
-                padding: vw(19) 0 vw(13);
+                padding: 19px 0 vw(13);
                 justify-content: center;
             }
 

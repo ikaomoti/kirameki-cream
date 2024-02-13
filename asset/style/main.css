@@ -62,7 +62,7 @@ li {
 @media screen and (max-width: 767px) {
   .shopping {
     height: auto;
-    padding: 12.8205128205vw 0;
+    padding: 12.8205128205vw 0 12.6923076923vw;
   }
 }
 .shopping-container {
@@ -159,7 +159,7 @@ li {
   font-size: min(3.515625vw, 2.8125rem);
   font-weight: 700;
   line-height: 0.7111111111;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.05em;
   display: block;
   text-align: center;
   margin-bottom: min(1.40625vw, 1.125rem);
@@ -169,7 +169,8 @@ li {
   .section-title {
     font-size: 7.6923076923vw;
     line-height: 1.0666666667;
-    margin-bottom: 1.0256410256vw;
+    margin-bottom: 4px;
+    margin-left: 0.7692307692vw;
   }
 }
 
@@ -287,9 +288,9 @@ li {
 .about .wrapper {
   display: flex;
   height: 100%;
-  padding-top: min(9.53125vw, 7.625rem);
-  justify-content: flex-end;
   padding-right: min(7.1875vw, 5.75rem);
+  justify-content: flex-end;
+  align-items: center;
 }
 @media screen and (max-width: 767px) {
   .about .wrapper {
@@ -310,12 +311,10 @@ li {
   font-family: "EB Garamond", serif;
   font-size: min(2.96875vw, 2.375rem);
   font-weight: 700;
-  line-height: 1.58;
-  letter-spacing: 0.044em;
+  line-height: 1.6;
 }
 @media screen and (max-width: 767px) {
   .about .wrapper .about__container .about__title {
-    margin-left: 0.7692307692vw;
     font-size: 7.6923076923vw;
   }
 }
@@ -349,7 +348,7 @@ li {
 }
 @media screen and (max-width: 767px) {
   .voices {
-    padding: 13.5897435897vw 0 19.2307692308vw;
+    padding: 13.8461538462vw 0 19.2307692308vw;
   }
 }
 
@@ -530,7 +529,7 @@ li {
 }
 @media screen and (max-width: 767px) {
   .qa .accordion-list__q-content {
-    padding: 4.8717948718vw 0 3.3333333333vw;
+    padding: 19px 0 3.3333333333vw;
     justify-content: center;
   }
 }
