@@ -562,6 +562,7 @@ li {
             background-color: #fff;
             display: flex;
             align-items: center;
+            cursor: pointer;
 
             @include sp {
                 padding: vw(19) 0 vw(13);
