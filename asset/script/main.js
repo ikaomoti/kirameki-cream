@@ -20,10 +20,10 @@ const swiper = new Swiper(".swiper", {
 });
 
 $(function () {
-    $(".accordion-list__q-content").click(function () {
+    $(".accordion__q").click(function () {
         $(this).next().slideToggle();
     });
-    $(".accordion-list__q-content").on('click', function () {
+    $(".accordion__q").on('click', function () {
         $(this).toggleClass('open');
     });
 });

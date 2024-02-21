@@ -2,37 +2,38 @@
 <html lang="ja">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:description" content="Kirameki Creamはお肌のうるおいを美しく保ちます。">
-    <meta property="og:title" content="肌のうるおい、煌めく Kirameki Cream | Kira-meki">
-    <meta property="og:type" content="article">
-    <meta property="og:site_name" content="Kira-meki">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:description" content="Kirameki Creamはお肌のうるおいを美しく保ちます。" />
+    <meta property="og:title" content="肌のうるおい、煌めく Kirameki Cream | Kira-meki" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="#" />
+    <meta property="og:site_name" content="Kira-meki" />
     <title>肌のうるおい、煌めく Kirameki Cream | Kira-meki</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
         href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Marcellus&family=Noto+Serif+JP:wght@400;500;600&display=swap"
-        rel="stylesheet">
-    <!--swiper-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
-    <!--style.css-->
-    <link href="/asset/style/main.css" rel="stylesheet">
+        rel="stylesheet" />
     <!-- リセットCSS -->
-    <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css" />
+    <!--style.css-->
+    <link href="/asset/style/main.css" rel="stylesheet" />
+    <!--swiper-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
     <header class="header">
         <section id="cover" class="cover wrapper">
-            <h1 class="site-logo">
+            <div class="site-logo">
                 <a href="#" class="site-logo__link">
-                    <img src="/asset/images/logo.svg" alt="Kira-meki" class="site-logo__img">
+                    <img src="/asset/images/logo.svg" alt="Kira-meki" class="site-logo__img" />
                 </a>
-            </h1>
+            </div>
             <div class="cover__catch">
-                <p class="cover__catch-large">Kirameki<br>Cream</p>
+                <h1 class="cover__catch-large">Kirameki<br />Cream</h1>
                 <p class="cover__catch-small">肌のうるおい、煌めく。</p>
             </div>
         </section>
@@ -40,24 +41,27 @@
 
     <main>
         <div class="shopping wrapper">
-            <div class="shopping-container">
-                <div class="shopping-container__about">
-                    <p class="shopping-container__item-name">キラメキクリーム</p>
-                    <p class="shopping-container__price">税込<span class="shopping-container__price-number">4,000</span>円
+            <div class="l-shopping__container">
+                <div class="shopping__about">
+                    <p class="shopping__item-name">キラメキクリーム</p>
+                    <p class="shopping__price">
+                        税込<span class="shopping__price-number">4,000</span>円
                     </p>
                 </div>
-                <div class="shopping-container__links">
-                    <a href="#" class="shopping-container__button shopping-container__button--blue">オンラインショップへ</a>
-                    <a href="/cart/" class="shopping-container__button shopping-container__button--green">購入する</a>
+                <div class="shopping__links">
+                    <a href="#" class="shopping__button--blue">オンラインショップへ</a>
+                    <a href="/cart/" class="shopping__button--green">購入する</a>
                 </div>
             </div>
         </div>
 
         <section id="about" class="about">
             <div class="wrapper">
-                <div class="about__container">
-                    <h2 class="about__title">Keep Your Skin Beautiful.</h2>
-                    <p class="about__subtitle">お肌を美しく保つ</p>
+                <div class="l-about__container">
+                    <h2 class="about__title">
+                        <span class="about__title--en">Keep Your Skin Beautiful.</span>
+                        <span class="about__title--ja">お肌を美しく保つ</span>
+                    </h2>
                     <p class="about__text">
                         ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。ここにテキストが入ります。
                     </p>
@@ -66,18 +70,17 @@
         </section>
 
         <section id="voices" class="voices wrapper">
-            <h2 class="section-title">Voices</h2>
-            <p class="section-subtitle">お客様の声</p>
-            <!-- Sliderを包むコンテナ要素 -->
+            <h2 class="section-title">
+                <span class="section-title__en">Voices</span>
+                <span class="section-title__ja">お客様の声</span>
+            </h2>
             <div class="swiper">
-                <!-- スライド要素を包む要素 -->
                 <div class="swiper-wrapper">
-                    <!-- 各スライド -->
                     <div class="swiper-slide slide1">
                         <div class="voice">
                             <picture class="voice__face">
-                                <source media="(max-width: 767px)" srcset="/asset/images/voices_a_sp.jpg">
-                                <img src="/asset/images/voices_a.jpg" alt="" class="voice__face-img">
+                                <source media="(max-width: 767px)" srcset="/asset/images/voices_a_sp.jpg" />
+                                <img src="/asset/images/voices_a.jpg" alt="" class="voice__face-img" />
                             </picture>
                             <p class="voice__name">Aさん</p>
                             <p class="voice__text">
@@ -88,7 +91,7 @@
                     <div class="swiper-slide slide2">
                         <div class="voice">
                             <div class="voice__face">
-                                <img src="/asset/images/voices_b.jpg" alt="" class="voice__face-img">
+                                <img src="/asset/images/voices_b.jpg" alt="" class="voice__face-img" />
                             </div>
                             <p class="voice__name">Bさん</p>
                             <p class="voice__text">
@@ -99,7 +102,7 @@
                     <div class="swiper-slide slide3">
                         <div class="voice">
                             <div class="voice__face">
-                                <img src="/asset/images/voices_c.jpg" alt="" class="voice__face-img">
+                                <img src="/asset/images/voices_c.jpg" alt="" class="voice__face-img" />
                             </div>
                             <p class="voice__name">Cさん</p>
                             <p class="voice__text">
@@ -110,8 +113,8 @@
                     <div class="swiper-slide slide4">
                         <div class="voice">
                             <picture class="voice__face">
-                                <source media="(max-width: 767px)" srcset="/asset/images/voices_a_sp.jpg">
-                                <img src="/asset/images/voices_a.jpg" alt="" class="voice__face-img">
+                                <source media="(max-width: 767px)" srcset="/asset/images/voices_a_sp.jpg" />
+                                <img src="/asset/images/voices_a.jpg" alt="" class="voice__face-img" />
                             </picture>
                             <p class="voice__name">Aさん</p>
                             <p class="voice__text">
@@ -122,7 +125,7 @@
                     <div class="swiper-slide slide5">
                         <div class="voice">
                             <div class="voice__face">
-                                <img src="/asset/images/voices_b.jpg" alt="" class="voice__face-img">
+                                <img src="/asset/images/voices_b.jpg" alt="" class="voice__face-img" />
                             </div>
                             <p class="voice__name">Bさん</p>
                             <p class="voice__text">
@@ -133,7 +136,7 @@
                     <div class="swiper-slide slide6">
                         <div class="voice">
                             <div class="voice__face">
-                                <img src="/asset/images/voices_c.jpg" alt="" class="voice__face-img">
+                                <img src="/asset/images/voices_c.jpg" alt="" class="voice__face-img" />
                             </div>
                             <p class="voice__name">Cさん</p>
                             <p class="voice__text">
@@ -149,64 +152,66 @@
         </section>
 
         <section id="qa" class="qa">
-            <h2 class="section-title">Q&A</h2>
-            <p class="section-subtitle">よくあるご質問</p>
-            <dl class="accordion-list">
-                <dt class="accordion-list__q-content">
-                    <p class="accordion-list__q-text">
+            <h2 class="section-title">
+                <span class="section-title__en">Q&A</span>
+                <span class="section-title__ja">よくあるご質問</span>
+            </h2>
+            <dl class="accordion">
+                <dt class="accordion__q">
+                    <p class="accordion__q-text">
                         テキストが入ります。テキストが入ります。テキストが入ります。
                     </p>
                 </dt>
-                <dd class="accordion-list__a-content">
-                    <p class="accordion-list__a-text">
+                <dd class="accordion__a">
+                    <p class="accordion__a-text">
                         テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
                     </p>
                 </dd>
             </dl>
-            <dl class="accordion-list">
-                <dt class="accordion-list__q-content">
-                    <p class="accordion-list__q-text">
+            <dl class="accordion">
+                <dt class="accordion__q">
+                    <p class="accordion__q-text">
                         テキストが入ります。テキストが入ります。テキストが入ります。
                     </p>
                 </dt>
-                <dd class="accordion-list__a-content">
-                    <p class="accordion-list__a-text">
+                <dd class="accordion__a">
+                    <p class="accordion__a-text">
                         テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
                     </p>
                 </dd>
             </dl>
-            <dl class="accordion-list">
-                <dt class="accordion-list__q-content">
-                    <p class="accordion-list__q-text">
+            <dl class="accordion">
+                <dt class="accordion__q">
+                    <p class="accordion__q-text">
                         テキストが入ります。テキストが入ります。テキストが入ります。
                     </p>
                 </dt>
-                <dd class="accordion-list__a-content">
-                    <p class="accordion-list__a-text">
+                <dd class="accordion__a">
+                    <p class="accordion__a-text">
                         テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
                     </p>
                 </dd>
             </dl>
-            <dl class="accordion-list">
-                <dt class="accordion-list__q-content">
-                    <p class="accordion-list__q-text">
+            <dl class="accordion">
+                <dt class="accordion__q">
+                    <p class="accordion__q-text">
                         テキストが入ります。テキストが入ります。テキストが入ります。
                     </p>
                 </dt>
-                <dd class="accordion-list__a-content">
-                    <p class="accordion-list__a-text">
+                <dd class="accordion__a">
+                    <p class="accordion__a-text">
                         テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
                     </p>
                 </dd>
             </dl>
-            <dl class="accordion-list">
-                <dt class="accordion-list__q-content">
-                    <p class="accordion-list__q-text">
+            <dl class="accordion">
+                <dt class="accordion__q">
+                    <p class="accordion__q-text">
                         テキストが入ります。テキストが入ります。テキストが入ります。
                     </p>
                 </dt>
-                <dd class="accordion-list__a-content">
-                    <p class="accordion-list__a-text">
+                <dd class="accordion__a">
+                    <p class="accordion__a-text">
                         テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。
                     </p>
                 </dd>
@@ -214,26 +219,27 @@
         </section>
 
         <div class="shopping wrapper">
-            <div class="shopping-container">
-                <div class="shopping-container__about">
-                    <p class="shopping-container__item-name">キラメキクリーム</p>
-                    <p class="shopping-container__price">税込<span class="shopping-container__price-number">4,000</span>円
+            <div class="l-shopping__container">
+                <div class="shopping__about">
+                    <p class="shopping__item-name">キラメキクリーム</p>
+                    <p class="shopping__price">
+                        税込<span class="shopping__price-number">4,000</span>円
                     </p>
                 </div>
-                <div class="shopping-container__links">
-                    <a href="#" class="shopping-container__button shopping-container__button--blue">オンラインショップへ</a>
-                    <a href="/cart" class="shopping-container__button shopping-container__button--green">購入する</a>
+                <div class="shopping__links">
+                    <a href="#" class="shopping__button--blue">オンラインショップへ</a>
+                    <a href="/cart/" class="shopping__button--green">購入する</a>
                 </div>
             </div>
         </div>
     </main>
     <footer id="footer" class="footer">
         <div class="wrapper">
-            <h2 class="footer-logo">
+            <p class="footer-logo">
                 <a href="#" class="footer-logo__link">
-                    <img src="/asset/images/footer_logo.svg" alt="Kira-meki" class="footer-logo__img">
+                    <img src="/asset/images/footer_logo.svg" alt="Kira-meki" class="footer-logo__img" />
                 </a>
-            </h2>
+            </p>
             <ul class="footer-links">
                 <li class="footer-links__item">
                     <a href="/company/">会社概要</a>
@@ -249,10 +255,9 @@
                 © 2023 Kira-meki Inc. All rights reserved.
             </small>
             <a href="#" class="backtotop-button">
-                <img src="/asset/images/arrow-up-short.png" alt="トップに戻る">
+                <img src="/asset/images/arrow-up-short.png" alt="トップに戻る" />
             </a>
         </div>
-
     </footer>
 
     <!-- jQuery -->
