@@ -763,7 +763,7 @@ li {
 
 .backtotop-button {
     position: fixed;
-    bottom: vwPC(104);
+    bottom: 0;
     right: vwPC(150);
     width: mvw(40);
     height: mvw(40);
@@ -771,12 +771,25 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 10;
+    z-index: 100;
+    display: none;
 
     @include sp {
         width: vw(40);
         height: vw(40);
-        bottom: vw(166);
+        bottom: 0;
         right: vw(16);
+    }
+
+    &.active {
+        display: flex;
+
+        &.absolute {
+            bottom: vwPC(104);
+
+            @include sp {
+                bottom: vw(164);
+            }
+        }
     }
 }
