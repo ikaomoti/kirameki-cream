@@ -817,12 +817,13 @@ li {
       -ms-flex-pack: end;
           justify-content: flex-end;
   position: sticky;
-  bottom: min(7.8125vw, 6.25rem);
+  bottom: min(3.90625vw, 3.125rem);
+  z-index: 100;
 }
 
 .backtotop-button {
   position: sticky;
-  bottom: min(7.8125vw, 6.25rem);
+  bottom: min(3.90625vw, 3.125rem);
   right: 10vw;
   width: min(3.125vw, 2.5rem);
   height: min(3.125vw, 2.5rem);
@@ -858,5 +859,13 @@ li {
 @media screen and (max-width: 767px) {
   .backtotop-button.active.absolute {
     bottom: 42.0512820513vw;
+  }
+}
+.backtotop-button__img {
+  width: min(1.09375vw, 0.875rem);
+}
+@media screen and (max-width: 767px) {
+  .backtotop-button__img {
+    width: 3.5897435897vw;
   }
 }/*# sourceMappingURL=main.css.map */

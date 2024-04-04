@@ -765,12 +765,13 @@ li {
     display: flex;
     justify-content: flex-end;
     position: sticky;
-    bottom: mvw(100);
+    bottom: mvw(50);
+    z-index: 100;
 }
 
 .backtotop-button {
     position: sticky;
-    bottom: mvw(100);
+    bottom: mvw(50);
     right: vwPC(150);
     width: mvw(40);
     height: mvw(40);
@@ -797,6 +798,14 @@ li {
             @include sp {
                 bottom: vw(164);
             }
+        }
+    }
+
+    &__img {
+        width: mvw(14);
+
+        @include sp {
+            width: vw(14);
         }
     }
 }
