@@ -19,6 +19,8 @@
         rel="stylesheet" />
     <!-- リセットCSS -->
     <link rel="stylesheet" href="https://unpkg.com/ress@4.0.0/dist/ress.min.css" />
+    <!--animate-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <!--swiper-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <!--style.css-->
@@ -244,11 +246,13 @@
             </div>
         </div>
     </main>
+
     <div class="backtotop-button-area">
-        <a href="#" class="backtotop-button">
-            <img src="/asset/images/arrow-up-short.png" alt="トップに戻る" />
+        <a href="#" class="backtotop-button fadein animate__animated">
+            <img src="/asset/images/arrow-up-short.png" alt="トップに戻る" class="backtotop-button__img">
         </a>
     </div>
+
     <footer id="footer" class="footer">
         <div class="wrapper">
             <p class="footer-logo">
@@ -275,6 +279,10 @@
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--waypoints-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+        integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!--swiper-->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <!--main-js-->
