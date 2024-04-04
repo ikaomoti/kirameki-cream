@@ -761,9 +761,16 @@ li {
     }
 }
 
+.backtotop-button-area {
+    display: flex;
+    justify-content: flex-end;
+    position: sticky;
+    bottom: mvw(100);
+}
+
 .backtotop-button {
-    position: fixed;
-    bottom: 0;
+    position: sticky;
+    bottom: mvw(100);
     right: vwPC(150);
     width: mvw(40);
     height: mvw(40);
@@ -777,7 +784,7 @@ li {
     @include sp {
         width: vw(40);
         height: vw(40);
-        bottom: 0;
+        bottom:vw(50);
         right: vw(16);
     }
 

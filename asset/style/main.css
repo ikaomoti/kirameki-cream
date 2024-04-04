@@ -809,9 +809,20 @@ li {
   }
 }
 
+.backtotop-button-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  position: sticky;
+  bottom: min(7.8125vw, 6.25rem);
+}
+
 .backtotop-button {
-  position: fixed;
-  bottom: 0;
+  position: sticky;
+  bottom: min(7.8125vw, 6.25rem);
   right: 10vw;
   width: min(3.125vw, 2.5rem);
   height: min(3.125vw, 2.5rem);
@@ -832,7 +843,7 @@ li {
   .backtotop-button {
     width: 10.2564102564vw;
     height: 10.2564102564vw;
-    bottom: 0;
+    bottom: 12.8205128205vw;
     right: 4.1025641026vw;
   }
 }

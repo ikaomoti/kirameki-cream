@@ -40,15 +40,4 @@ $(function () {
             btn.removeClass('active');
         }
     });
-    //フッターの手前でボタンを止める
-    $(window).on('load scroll', function () {
-        var height = $(document).height(), //ドキュメントの高さ 
-            position = window.innerHeight + $(window).scrollTop(), //ページトップから現在地までの高さ
-            footer = $('footer').height(); //フッターの高さ
-        if (height - position < footer) {
-            btn.addClass('absolute');
-        } else {
-            btn.removeClass('absolute');
-        }
-    });
 });
